@@ -5,7 +5,7 @@ const bubbleSort = (arr, n) => {
  let swapped;
 
  for(let i=0; i<n-1; i++){
-   // swapped = false;
+   swapped = false; 
 
    for(let j=0; j < n-1; j++){
     // 7     >      1

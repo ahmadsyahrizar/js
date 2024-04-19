@@ -2,10 +2,10 @@
 const bubbleSort = (arr, n) => {
  // code here
  let temp;
- let swapped;
+//  let swapped;
 
  for(let i=0; i<n-1; i++){
-   swapped = false; 
+  //  swapped = false; 
 
    for(let j=0; j < n-1; j++){
     // 7     >      1
@@ -14,12 +14,12 @@ const bubbleSort = (arr, n) => {
        arr[j] = arr[j+1]; // array ke 0 = 1 
        arr[j+1] = temp; // 7; 
        // first result = [1, 7, 4, 6]
-       swapped = true;
+      //  swapped = true;
      }
    }
 
-   if(!swapped);
-   break;
+  //  if(!swapped);
+  //  break;
  }
 }
 
